@@ -1,0 +1,288 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talabat.APIs\\Talabat.APIs.csproj": {}
+  },
+  "projects": {
+    "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talabat.APIs\\Talabat.APIs.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talabat.APIs\\Talabat.APIs.csproj",
+        "projectName": "Talabat.APIs",
+        "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talabat.APIs\\Talabat.APIs.csproj",
+        "packagesPath": "C:\\Users\\Candle-Store\\.nuget\\packages\\",
+        "outputPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talabat.APIs\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Candle-Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Repository\\Talapat.Repository.csproj": {
+                "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Repository\\Talapat.Repository.csproj"
+              },
+              "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Services\\Talapat.Services.csproj": {
+                "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Services\\Talapat.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\Talapat.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\Talapat.Core.csproj",
+        "projectName": "Talapat.Core",
+        "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\Talapat.Core.csproj",
+        "packagesPath": "C:\\Users\\Candle-Store\\.nuget\\packages\\",
+        "outputPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Candle-Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.6.111, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[41.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Repository\\Talapat.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Repository\\Talapat.Repository.csproj",
+        "projectName": "Talapat.Repository",
+        "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Repository\\Talapat.Repository.csproj",
+        "packagesPath": "C:\\Users\\Candle-Store\\.nuget\\packages\\",
+        "outputPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Candle-Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\Talapat.Core.csproj": {
+                "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\Talapat.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Services\\Talapat.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Services\\Talapat.Services.csproj",
+        "projectName": "Talapat.Services",
+        "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Services\\Talapat.Services.csproj",
+        "packagesPath": "C:\\Users\\Candle-Store\\.nuget\\packages\\",
+        "outputPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Candle-Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\Talapat.Core.csproj": {
+                "projectPath": "F:\\asp.net\\API\\S6\\Talabat.APIs\\Talapat.Core\\Talapat.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
